@@ -79,32 +79,67 @@
 
   .main-block {
       width: 23%; 
-      min-width: 200px; 
+      min-width: 200px;
+      min-height: 700px;
+      padding: 20px;
       border: 3px solid rgb(255, 255, 255);
       border-radius: 25px;
       background-color: #b2b2b2;
       opacity: 0.85;
-      display: flex;
-      align-items: center;
-      justify-content: center; 
       text-align: center;
-      padding: 20px;
       margin-top: 30px;
-      padding-bottom: 650px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
   }
+  .main-block hr {
+    width: 100%; /* Sprawia, że linia zajmuje całą szerokość */
+    border: none; /* Usuwa domyślną ramkę */
+    border-top: 2px solid white; /* Tworzy białą linię */
+    margin: 10px 0; /* Dodaje odstęp */
+}
+
+  .main-block section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  .main-block img {
+    display: inline-block;
+    margin: 5px auto;
+    flex-direction: row;
+    width: auto; /* Zapewnia proporcjonalne skalowanie */
+    height: 50px;
+
+  }
+  .partners-container {
+    display: flex;
+    justify-content: center; /* Wyśrodkowanie obrazków */
+    gap: 10px; /* Odstęp między obrazkami */
+    margin-top: auto; /* Przesuwa sekcję na dół */
+    width: 100%; 
+    text-align: center;
+  }
+
   .main-block h2{
     font-family: "Bebas Neue";
     letter-spacing: 3px;
+    display: block;
+    width: 100%;
+    text-align: center;
   }
+  .main-block h3{
+    font-family: "Bebas Neue";
+    letter-spacing: 2px;
+  }
+  
   .main-block h4{
     font-family: "Abril Fatface";
   }
-
-  
-  iframe {
-    display: block;
-  }
-  
 
   footer{
     border-top-left-radius: 10px;
@@ -145,7 +180,7 @@
   }
 
   #footer-copyright,a{
-    display: flex; 
+    display: flex;  
     justify-content: center; 
     align-items: center; 
     gap: 10px;
