@@ -23,18 +23,19 @@
     align-items: center; /* Wyśrodkowanie w pionie */
     gap: 20px; /* Odstęp między przyciskami */
     margin: 0px;
-    padding: 15px;
+    padding: 10px;
     height: 35%; /* Wysokość nawigacji */
     width: 100%; /* Rozciągnięcie na całą szerokość strony */
-    background-color: white;
+    background-color: #3b3b3b;
   }
   
   nav button {
-    background-color: transparent; /* Tło przycisków jest przezroczyste */
+    background-color: #b2b2b2; /* Tło przycisków jest przezroczyste */
+    color: #757575;
     border: 1px solid grey; /* Dodanie ramki przycisku */
     padding: 10px 20px; /* Dodanie przestrzeni wewnętrznej */
     cursor: pointer; /* Zmiana kursora na wskazujący */
-    border-radius: 25%;
+    border-radius: 15%;
   }
   
   nav button:hover {
@@ -55,21 +56,30 @@
     background-image: url(C:/xampp/htdocs/stronka-samoloty-projekt/images/background2.jpg);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    background-blend-mode: darken;
+    background-repeat:no repeat;
   }
+
   
   #map-localization {
     height: 100%;
     margin: 0;
-    display: flex;
+    display: none;
     justify-content: center; /* Wyśrodkowanie w poziomie */
+  }
+  .main-block{
+    height: 75%;
+    width: 23%;
+    border: 2px solid white;
+    border-radius: 25px;
+    background-color: #b2b2b2;
+    opacity: 0.90;
   }
   
   iframe {
-    display: none;
+    display: block;
   }
   
+
   footer{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
