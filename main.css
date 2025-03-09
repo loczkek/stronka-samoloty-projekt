@@ -8,10 +8,10 @@
     src: url("/xampp/htdocs/stronka-samoloty-projekt/czcionki/Abril_Fatface/AbrilFatface-Regular.ttf") format("truetype");
     font-weight: 100;
 }
-@font-face {
-  font-family: "Bebas Neue";
-  src: url("/xampp/htdocs/stronka-samoloty-projekt/czcionki/Bebas_Neue/BebasNeue-Regular.ttf") format("truetype");
-}
+  @font-face {
+    font-family: "Bebas Neue";
+    src: url("/xampp/htdocs/stronka-samoloty-projekt/czcionki/Bebas_Neue/BebasNeue-Regular.ttf") format("truetype");
+  }
 
   body {
     background-color: #3b3b3b;
