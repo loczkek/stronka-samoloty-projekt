@@ -99,6 +99,26 @@
     align-items: center;
 }
 
+.aircraft_type_picks {
+    display: flex;
+    gap: 20px;
+}
+
+.aircraft_type_pick{
+    width: 120px;
+    height: 60px;
+    font-size: 120%;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+.aircraft_type_pick :hover{
+    width: 120px;
+    height: 60px;
+    font-size: 120%;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
 
 
 
