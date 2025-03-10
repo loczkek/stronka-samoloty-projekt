@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Abril Fatface";
+  }
+  @font-face {
+    font-family: "Abril Fatface";
+    src: url("/xampp/htdocs/stronka-samoloty-projekt/czcionki/Abril_Fatface/AbrilFatface-Regular.ttf") format("truetype");
+    font-weight: 100;
+}
+  @font-face {
+    font-family: "Bebas Neue";
+    src: url("/xampp/htdocs/stronka-samoloty-projekt/czcionki/Bebas_Neue/BebasNeue-Regular.ttf") format("truetype");
+  }
+
+  body {
+    background-color: #3b3b3b;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px; 
+    margin: 0px;
+    padding: 10px;
+    height: 35%; 
+    width: 100%; 
+    background-color: #3b3b3b;
+  }
+  
+  nav button {
+    background-color: #b2b2b2; 
+    color: #757575;
+    border: 1px solid grey; 
+    padding: 10px 20px; 
+    cursor: pointer; 
+    border-radius: 15%;
+  }
+  
+  nav button:hover {
+    background-color: rgba(255, 217, 0, 0.651);
+    transform: scale(1.1);
+    transition: 0.3;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black; 
+    font-size: 16px; 
+    display: block; 
+  }
+  
+  #main {
+    position: relative;
+    width: 100%;
+    height: 85vh;
+    background-image: url(C:/xampp/htdocs/stronka-samoloty-projekt/images/background2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat:no repeat;
+  }
+/* SEKCJA HEADER UP */
+#main {
+    
+}
+#search_aircraft_container{
+    padding-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#search_aircraft{
+    width: 55%;
+    height: 480px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    background-color: #b2b2b2;
+    opacity: 0.90;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.available_aircrafts{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    width: 20%;
+    height: 220px;
+    border: 3px solid rgb(255, 255, 255);
+    border-radius: 25px;
+    background-color: #b2b2b2;
+    opacity: 0.90;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
+
+
+/*SEKCJA FOOTER DOWN*/
+  footer{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  footer h2{
+    color: #b2b2b2;
+    font-family: "Bebas Neue";
+  }
+  footer h4{
+    color: #757575;
+    font-family: "Abril Fatface";
+  }
+  footer a{
+    text-decoration: none;
+  }
+
+  #footer-login{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2px;
+  }
+  #footer-login input{
+    border-radius: 5px;
+    border: 0.5px solid black;
+    height: 33px;
+    text-align: center;
+  }
+  #footer-login button{
+    border-radius: 5px;
+    border: 0.5px solid black;
+    height: 33px;
+    text-align: center;
+    width: 75px;
+    background-color: rgb(205, 95, 71);
+    color: #b2b2b2;
+  }
+
+  #footer-copyright,a{
+    display: flex;  
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px;
+    margin: 0px;
+    padding: 2px;
+    color: #b2b2b2;
+    font-family: "Bebas Neue";
+  }
